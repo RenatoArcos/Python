@@ -2,7 +2,7 @@
 from forex_python.converter import CurrencyRates
 
 c = CurrencyRates()
-amount = int(input("Enter the amount:  "))
+amount = float(input("Enter the amount:  "))
 from_currency = input("From Currency:  ").upper()
 to_currency = input("To Currency:  ").upper()
 
